@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stetic-interface>
+  <configuration>
+    <images-root-path>..</images-root-path>
+  </configuration>
+  <import>
+    <widget-library name="../bin/Debug/Scorpion_Client.exe" internal="true" />
+  </import>
+  <widget class="Gtk.Window" id="MainWindow" design-size="1030 581">
+    <action-group name="Default">
+      <action id="FileAction">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">File</property>
+        <property name="ShortLabel" translatable="yes">File</property>
+      </action>
+      <action id="EditAction">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">Edit</property>
+        <property name="ShortLabel" translatable="yes">Edit</property>
+      </action>
+      <action id="Action">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">?</property>
+        <property name="ShortLabel" translatable="yes">?</property>
+      </action>
+      <action id="ConnectAction">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">Connect</property>
+        <property name="ShortLabel" translatable="yes">Connect</property>
+      </action>
+      <action id="DisconnectAction">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">Disconnect</property>
+        <property name="ShortLabel" translatable="yes">Disconnect</property>
+      </action>
+      <action id="MANPagesAction">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">MAN pages</property>
+        <property name="ShortLabel" translatable="yes">MAN pages</property>
+      </action>
+    </action-group>
+    <property name="MemberName" />
+    <property name="Title" translatable="yes">MainWindow</property>
+    <property name="WindowPosition">CenterOnParent</property>
+    <property name="DestroyWithParent">True</property>
+    <signal name="DeleteEvent" handler="OnDeleteEvent" />
+    <child>
+      <widget class="Gtk.Fixed" id="fixed1">
+        <property name="MemberName" />
+        <property name="HasWindow">False</property>
+        <child>
+          <widget class="Gtk.MenuBar" id="menubar2">
+            <property name="MemberName" />
+            <property name="WidthRequest">0</property>
+            <node name="__gtksharp_166_Stetic_Editor_ActionMenuBar" type="Menubar">
+              <node type="Menu" action="FileAction">
+                <node type="Menuitem" action="ConnectAction" />
+                <node type="Menuitem" action="DisconnectAction" />
+              </node>
+              <node type="Menu" action="EditAction" />
+              <node type="Menu" action="Action" />
+            </node>
+          </widget>
+          <packing>
+            <property name="X">11</property>
+            <property name="Y">7</property>
+          </packing>
+        </child>
+        <child>
+          <placeholder />
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button2">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">_OK</property>
+            <property name="UseUnderline">True</property>
+            <property name="Xalign">0</property>
+            <property name="Yalign">0</property>
+          </widget>
+          <packing>
+            <property name="X">771</property>
+            <property name="Y">10</property>
+          </packing>
+        </child>
+        <child>
+          <placeholder />
+        </child>
+      </widget>
+    </child>
+  </widget>
+</stetic-interface>

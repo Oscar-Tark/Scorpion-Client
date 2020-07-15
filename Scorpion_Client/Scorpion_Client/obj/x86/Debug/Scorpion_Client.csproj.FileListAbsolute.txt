@@ -1,0 +1,6 @@
+/home/ferret/Projects/Scorpion_Client/Scorpion_Client/obj/x86/Debug/Scorpion_Client.csprojAssemblyReference.cache
+/home/ferret/Projects/Scorpion_Client/Scorpion_Client/obj/x86/Debug/Scorpion_Client.csproj.CoreCompileInputs.cache
+/home/ferret/Projects/Scorpion_Client/Scorpion_Client/bin/Debug/Scorpion_Client.exe
+/home/ferret/Projects/Scorpion_Client/Scorpion_Client/bin/Debug/Scorpion_Client.pdb
+/home/ferret/Projects/Scorpion_Client/Scorpion_Client/obj/x86/Debug/Scorpion_Client.exe
+/home/ferret/Projects/Scorpion_Client/Scorpion_Client/obj/x86/Debug/Scorpion_Client.pdb
